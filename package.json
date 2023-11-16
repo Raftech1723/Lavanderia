@@ -4,13 +4,17 @@
   "description": "Pagina de servicio de lavanderia",
   "main": "form.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/form.js"
   },
   "author": "Rafael",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "mocha": "^10.2.0",
     "mongodb": "^6.2.0",
-    "mysql": "^2.18.1"
+    "mongoose": "^8.0.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
   }
 }
